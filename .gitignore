@@ -1,0 +1,55 @@
+# Environment
+.env
+.env.local
+
+# Data directories (private documents)
+data/documents/*
+!data/documents/.gitkeep
+data/storage/*
+!data/storage/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Model cache
+.cache/
+models/
+
+# spaCy
+*.spacy
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
